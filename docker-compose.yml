@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - https://kissmanga.com/Manga/Toukyou-Kushu/Vol-001-Ch-001--Tragedy?id=101026
+      - https://kissmanga.com/Manga/Toukyou-Kushu
   selenium:
     image: "elgalu/selenium:latest"
     ports:
